@@ -6,3 +6,4 @@ uvicorn==0.35.0
 matplotlib
 seaborn
 scikit-learn
+
