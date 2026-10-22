@@ -156,6 +156,7 @@ async def predict_house_price(features:HouseFeatures):
             input_features=features.dict()
         )
     except Exception as e:
+        
         raise HTTPException(status_code=500,details=f"Prediction error:{str(e)}")
 # example usage and testing
 if __name__=="__main__":
